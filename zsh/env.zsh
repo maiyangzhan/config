@@ -4,9 +4,6 @@ export SOFTWARE_PATH=/home/myz/software_myz
 # local env
 export PATH=/home/myz/.local/bin:$PATH
 
-# Editor
-export EDITOR=nvim
-
 # clash
 alias clash_start="screen -S clash $SOFTWARE_PATH/clash/clash -d $SOFTWARE_PATH/clash/"
 alias clash_stop="pkill clash"
